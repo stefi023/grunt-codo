@@ -1,0 +1,31 @@
+{
+  "name": "grunt-codo",
+  "version": "0.1.0",
+  "description": "Codo Grunt tasks",
+  "keywords": [
+    "CoffeeScript",
+    "API",
+    "Documentation",
+    "Codo",
+    "gruntplugin"
+  ],
+  "author": {
+    "name": "Petr Stefan",
+    "email": "petr@pixelfactory.cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefi023/grunt-codo.git"
+  },
+  "dependencies": {
+      "codo": "~1.7.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "lib",
+  "license": "MIT"
+}
