@@ -15,17 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stefi023/grunt-codo.git"
+    "url": "git://github.com/stefi023/grunt-codo.git"
   },
   "dependencies": {
-      "codo": "https://github.com/stefi023/codo.git"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.0"
-  },
+      "codo": "git://github.com/stefi023/codo.git"
+  }
   "engines": {
     "node": ">= 0.8.0"
   },
-  "main": "lib",
-  "license": "MIT"
+  "main" : "./src/codo",
+  "license": "MIT",
+  "readmeFilename": "README.md"
 }
